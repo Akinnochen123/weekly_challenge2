@@ -1,0 +1,44 @@
+body {
+    background: black;
+    color: white;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: visible;
+    width: 120px;
+    background: gray;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 6px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+
+#name {
+    border: 3px solid lightblue;
+    width: 500px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#email {
+    border: 3px solid green;
+    width: 500px;
+    padding: 3px;
+    margin: 3px;
+}
+
+#age {
+    border: 3px solid orange;
+    width: 500px;
+    padding: 3px;
+    margin: 3px;
+}
+
