@@ -4,13 +4,31 @@ body {
     
 }
 
+.one, .two {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 300px;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .tooltip .tooltiptext {
     visibility: visible;
-    width: 120px;
+    width: 130px;
     background: gray;
     text-align: center;
     padding: 3px 0;
     border-radius: 6px;
+}
+
+.P {
+    text-align: center;
 }
 
 form {
@@ -42,3 +60,7 @@ form {
     margin: 3px;
 }
 
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
